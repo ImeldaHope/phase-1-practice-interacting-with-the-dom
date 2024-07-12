@@ -65,7 +65,7 @@ function pause(){
 function postComment(comment){           
         const p = document.createElement('p');
         p.textContent = `${comment} `;
-        commentForm.appendChild(p);     
+        document.querySelector('#list').appendChild(p);     
 }
 
 function likeCounter(){
